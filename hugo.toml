@@ -2,3 +2,8 @@ baseURL = 'https://brivalent.com/'
 locale = 'en-us'
 title = 'From the bottom of the swamp to the stars and beyond'
 theme = 'ananke'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
